@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C7DDC732-7FB7-6313-CFDA-1568A35EBACB">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:57:36 UTC</createdTime>
+<ownerDesignName>sample_one</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

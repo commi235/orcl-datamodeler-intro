@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D7EE0A-93EE-61CE-1808-C698883B60B9" name="EMPLOYEES">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 19:03:13 UTC</createdTime>
+<ownerDesignName>sample_one</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>EMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_ID" id="AA224538-829D-F0D2-3D18-7F9B698A9673">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 19:03:55 UTC</createdTime>
+<ownerDesignName>sample_one</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5A4C06B4-4EC3-619A-DCCA-6F4122416BA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_NAME" id="C180B7B3-AEEB-F06D-3B81-58FD3DA3E45E">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 19:03:55 UTC</createdTime>
+<ownerDesignName>sample_one</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<domain>B04598F9-7F80-C3CB-E361-A74872342AFE</domain>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A1B49D5-74BB-9B5C-CD60-FA87734D7BC8" name="EMP_PK">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 19:03:55 UTC</createdTime>
+<ownerDesignName>sample_one</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA224538-829D-F0D2-3D18-7F9B698A9673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
