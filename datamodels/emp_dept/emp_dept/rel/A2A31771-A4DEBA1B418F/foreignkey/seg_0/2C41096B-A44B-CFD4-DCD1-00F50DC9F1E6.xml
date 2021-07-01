@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C41096B-A44B-CFD4-DCD1-00F50DC9F1E6" containerWithKeyObject="D7D7DC4F-B9D0-3D54-BFF5-1F6289B8ED23" localFKIndex="B4174D4B-AC4D-1505-4349-5483EA75B34A" name="EMP_MGR_FK">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP_MGR_FK</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:37 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<referredTableLongName>KSCOPE.EMP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7D7DC4F-B9D0-3D54-BFF5-1F6289B8ED23</referredTableID>
+<keyObject>E374E36F-D9E5-5DEC-DE46-0161AF736F96</keyObject>
+<referredKeyID>E374E36F-D9E5-5DEC-DE46-0161AF736F96</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMPNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

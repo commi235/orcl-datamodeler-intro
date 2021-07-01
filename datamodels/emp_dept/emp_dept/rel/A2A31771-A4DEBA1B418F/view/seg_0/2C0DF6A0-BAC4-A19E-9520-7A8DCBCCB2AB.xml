@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="2C0DF6A0-BAC4-A19E-9520-7A8DCBCCB2AB" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="EMP_DEPT_V">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP_DEPT_V</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE OR REPLACE VIEW EMP_DEPT_V
+AS 
+select e.empno
+,      e.ename
+,      e.job
+,      (select m.ename from emp m where e.mgr = m.empno) mgr
+,      e.hiredate
+,      e.sal
+,      e.comm
+,      d.deptno
+,      d.dname
+,      d.loc
+from emp e
+,    dept d
+where e.deptno = d.deptno (+)]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EMPNO" id="3CCFA529-4E4A-6FC2-A98C-D6C83102E059">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>EMPNO</alias>
+<dataType>NUMBER (4)</dataType>
+<headerAlias>EMPNO</headerAlias>
+<reference>false</reference>
+<referencedColumn>29D75CA1-B8CC-1C21-1C54-701703B0AE4D</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ENAME" id="F4BE3DAD-78F5-DA9F-DF5E-E5E3DFB04352">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ENAME</alias>
+<dataType>VARCHAR2 (50 BYTE)</dataType>
+<headerAlias>ENAME</headerAlias>
+<reference>false</reference>
+<referencedColumn>C69F0D74-91A7-518E-2EA5-43C5239EEBE3</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="JOB" id="63DE4EDC-075C-1FE0-18EC-CA07C8A59029">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>JOB</alias>
+<dataType>VARCHAR2 (50 BYTE)</dataType>
+<headerAlias>JOB</headerAlias>
+<reference>false</reference>
+<referencedColumn>0EFE9055-A185-C530-0D84-D2AEAA79F3D9</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MGR" id="0E0EB954-B252-11C0-260C-6EA542DB2C09">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>MGR</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>MGR</alias>
+<dataType>DATE</dataType>
+<headerAlias>MGR</headerAlias>
+<reference>false</reference>
+<referencedColumn>FA71E901-394D-4EFE-5B8D-FEB4D35DEE5E</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="HIREDATE" id="1615B114-B912-0BAE-964C-AAD83B133AA7">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>HIREDATE</alias>
+<dataType>NUMBER (7,2)</dataType>
+<headerAlias>HIREDATE</headerAlias>
+<reference>false</reference>
+<referencedColumn>04FD079D-2267-488F-BDCA-379507E6A5F3</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SAL" id="6318E5CD-6295-17D2-170D-DD3D22F64AD7">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>SAL</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>SAL</alias>
+<dataType>NUMBER (7,2)</dataType>
+<headerAlias>SAL</headerAlias>
+<reference>false</reference>
+<referencedColumn>A4EC8B28-37E7-78CD-7682-038B09B43041</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COMM" id="8CE58F08-3538-C894-5732-5922E19B3111">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>COMM</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>COMM</alias>
+<dataType>NUMBER (4)</dataType>
+<headerAlias>COMM</headerAlias>
+<reference>false</reference>
+<referencedColumn>9754E5D5-5D9A-F602-7C1C-415A6E778113</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPTNO" id="B0B1D764-1120-3C11-EBFA-C0D5E4478851">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DEPTNO</alias>
+<dataType>VARCHAR2 (50 BYTE)</dataType>
+<headerAlias>DEPTNO</headerAlias>
+<reference>false</reference>
+<referencedColumn>A282714F-839E-ED1F-7ADA-239D6EEE395F</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DNAME" id="6CC569E2-944F-CF50-1123-922743DD54A1">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>DNAME</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DNAME</alias>
+<dataType>VARCHAR2 (50 BYTE)</dataType>
+<headerAlias>DNAME</headerAlias>
+<reference>false</reference>
+<referencedColumn>8A844340-11AF-A4B5-4263-EAB081A92F71</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOC" id="98449383-1B62-E96E-802C-D5171D9ADC9E">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP_DEPT_V</sourceObjSchema>
+<sourceObjName>LOC</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>LOC</alias>
+<dataType>VARCHAR2 (50 BYTE)</dataType>
+<headerAlias>LOC</headerAlias>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D7D7DC4F-B9D0-3D54-BFF5-1F6289B8ED23">
+<container>true</container>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="726BD22F-3406-A86C-77E7-AC8A7A418BEF">
+<container>true</container>
+<schema>KSCOPE</schema>
+<tableName>DEPT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="29D75CA1-B8CC-1C21-1C54-701703B0AE4D">
+<columnName>EMPNO</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C69F0D74-91A7-518E-2EA5-43C5239EEBE3">
+<columnName>ENAME</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0EFE9055-A185-C530-0D84-D2AEAA79F3D9">
+<columnName>JOB</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FA71E901-394D-4EFE-5B8D-FEB4D35DEE5E">
+<columnName>HIREDATE</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="04FD079D-2267-488F-BDCA-379507E6A5F3">
+<columnName>SAL</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A4EC8B28-37E7-78CD-7682-038B09B43041">
+<columnName>COMM</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9754E5D5-5D9A-F602-7C1C-415A6E778113">
+<columnName>DEPTNO</columnName>
+<schema>KSCOPE</schema>
+<tableName>DEPT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A282714F-839E-ED1F-7ADA-239D6EEE395F">
+<columnName>DNAME</columnName>
+<schema>KSCOPE</schema>
+<tableName>DEPT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8A844340-11AF-A4B5-4263-EAB081A92F71">
+<columnName>LOC</columnName>
+<schema>KSCOPE</schema>
+<tableName>DEPT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9CA4227D-4B18-327E-B087-4D38B369C996">
+<columnName>DEPTNO</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FE2C59E3-3786-AAEC-1E70-A96607F9DA7C">
+<columnName>MGR</columnName>
+<schema>KSCOPE</schema>
+<tableName>EMP</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMP" directorySegmentName="seg_0" id="D7D7DC4F-B9D0-3D54-BFF5-1F6289B8ED23">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:33 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<schemaObject>3E5E2BFE-44C5-159E-18B4-3DE0B18EA178</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>23CF1EE1-47D6-FB86-5DC7-5AB3276C8EAF</segment>
+<tableSpace>AD96CB46-9215-2BDB-7E74-FA1AD1D213E0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SAL" id="04FD079D-2267-488F-BDCA-379507E6A5F3">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB" id="0EFE9055-A185-C530-0D84-D2AEAA79F3D9">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="29D75CA1-B8CC-1C21-1C54-701703B0AE4D">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="DEPTNO" id="9CA4227D-4B18-327E-B087-4D38B369C996">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMM" id="A4EC8B28-37E7-78CD-7682-038B09B43041">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENAME" id="C69F0D74-91A7-518E-2EA5-43C5239EEBE3">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIREDATE" id="FA71E901-394D-4EFE-5B8D-FEB4D35DEE5E">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MGR" id="FE2C59E3-3786-AAEC-1E70-A96607F9DA7C">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_PK" id="5E7C6771-0E6C-7389-7252-70789F208962">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<schemaObject>3E5E2BFE-44C5-159E-18B4-3DE0B18EA178</schemaObject>
+<segment>23CF1EE1-47D6-FB86-5DC7-5AB3276C8EAF</segment>
+<tableSpace>AD96CB46-9215-2BDB-7E74-FA1AD1D213E0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_2" id="B69F328D-8D1E-AE61-8491-412250DB37BC">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<schemaObject>3E5E2BFE-44C5-159E-18B4-3DE0B18EA178</schemaObject>
+<segment>23CF1EE1-47D6-FB86-5DC7-5AB3276C8EAF</segment>
+<tableSpace>AD96CB46-9215-2BDB-7E74-FA1AD1D213E0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_1" id="D101BB2B-78C0-DFD9-9E8A-4B32A84E6ACF">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<schemaObject>3E5E2BFE-44C5-159E-18B4-3DE0B18EA178</schemaObject>
+<segment>23CF1EE1-47D6-FB86-5DC7-5AB3276C8EAF</segment>
+<tableSpace>AD96CB46-9215-2BDB-7E74-FA1AD1D213E0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_DEPT_FK" id="3C03448A-9D45-EC2D-4B62-E4E535DB9BAA">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:37 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_MGR_FK" id="B4174D4B-AC4D-1505-4349-5483EA75B34A">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:37 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_PK" id="E374E36F-D9E5-5DEC-DE46-0161AF736F96">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<segment>23CF1EE1-47D6-FB86-5DC7-5AB3276C8EAF</segment>
+<tableSpace>AD96CB46-9215-2BDB-7E74-FA1AD1D213E0</tableSpace>
+<existingIndex>5E7C6771-0E6C-7389-7252-70789F208962</existingIndex>
+<indexSegment>23CF1EE1-47D6-FB86-5DC7-5AB3276C8EAF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="APEX_6530746138382601" directorySegmentName="seg_0" id="AD96CB46-9215-2BDB-7E74-FA1AD1D213E0">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>APEX_6530746138382601</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

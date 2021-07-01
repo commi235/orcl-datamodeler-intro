@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7D7DC4F-B9D0-3D54-BFF5-1F6289B8ED23" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="EMP">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:33 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="29D75CA1-B8CC-1C21-1C54-701703B0AE4D">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>emp_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>EMP_TRG1</autoIncrementTriggerName>
+</Column>
+<Column name="ENAME" id="C69F0D74-91A7-518E-2EA5-43C5239EEBE3">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB" id="0EFE9055-A185-C530-0D84-D2AEAA79F3D9">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MGR" id="FE2C59E3-3786-AAEC-1E70-A96607F9DA7C">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>MGR</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C41096B-A44B-CFD4-DCD1-00F50DC9F1E6" referredColumn="29D75CA1-B8CC-1C21-1C54-701703B0AE4D"/>
+</associations>
+</Column>
+<Column name="HIREDATE" id="FA71E901-394D-4EFE-5B8D-FEB4D35DEE5E">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAL" id="04FD079D-2267-488F-BDCA-379507E6A5F3">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>SAL</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMM" id="A4EC8B28-37E7-78CD-7682-038B09B43041">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>COMM</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNO" id="9CA4227D-4B18-327E-B087-4D38B369C996">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A83B8933-D5DF-9E8D-18EC-AF27C14BBB3B" referredColumn="9754E5D5-5D9A-F602-7C1C-415A6E778113"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E374E36F-D9E5-5DEC-DE46-0161AF736F96" name="EMP_PK">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP_PK</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D75CA1-B8CC-1C21-1C54-701703B0AE4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D101BB2B-78C0-DFD9-9E8A-4B32A84E6ACF" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="EMP_1">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP_1</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2C59E3-3786-AAEC-1E70-A96607F9DA7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B69F328D-8D1E-AE61-8491-412250DB37BC" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="EMP_2">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP_2</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CA4227D-4B18-327E-B087-4D38B369C996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E7C6771-0E6C-7389-7252-70789F208962" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="EMP_PK">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>EMP_PK</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D75CA1-B8CC-1C21-1C54-701703B0AE4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C03448A-9D45-EC2D-4B62-E4E535DB9BAA" name="EMP_DEPT_FK">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:37 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CA4227D-4B18-327E-B087-4D38B369C996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4174D4B-AC4D-1505-4349-5483EA75B34A" name="EMP_MGR_FK">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:37 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2C59E3-3786-AAEC-1E70-A96607F9DA7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

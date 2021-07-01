@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="EMP_DEPT_V" directorySegmentName="seg_0" id="2C0DF6A0-BAC4-A19E-9520-7A8DCBCCB2AB">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:32 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<schemaObject>3E5E2BFE-44C5-159E-18B4-3DE0B18EA178</schemaObject>
+</TableViewProxyOraclev10g>

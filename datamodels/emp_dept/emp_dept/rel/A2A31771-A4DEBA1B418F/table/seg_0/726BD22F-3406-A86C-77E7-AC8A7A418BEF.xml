@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="726BD22F-3406-A86C-77E7-AC8A7A418BEF" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="DEPT">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>DEPT</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPTNO" id="9754E5D5-5D9A-F602-7C1C-415A6E778113">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>dept_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>DEPT_TRG1</autoIncrementTriggerName>
+</Column>
+<Column name="DNAME" id="A282714F-839E-ED1F-7ADA-239D6EEE395F">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>DNAME</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="8A844340-11AF-A4B5-4263-EAB081A92F71">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>LOC</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:34 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D1B4553-E640-E4B9-1580-CB3EDC7FAD29" name="DEPT_PK">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>DEPT_PK</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9754E5D5-5D9A-F602-7C1C-415A6E778113"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F99E6555-747B-F409-576A-02A0B5445069" schemaObject="3E5E2BFE-44C5-159E-18B4-3DE0B18EA178" name="DEPT_PK">
+<sourceConnName>vm_apex211.kscope</sourceConnName>
+<sourceObjSchema>KSCOPE</sourceObjSchema>
+<sourceObjName>DEPT_PK</sourceObjName>
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:44:35 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9754E5D5-5D9A-F602-7C1C-415A6E778113"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

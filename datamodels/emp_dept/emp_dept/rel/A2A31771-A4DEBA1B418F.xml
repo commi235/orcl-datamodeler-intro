@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A2A31771-F3DA-EF3A-CDD2-A4DEBA1B418F" mainViewID="D6C36108-60AE-4BAF-4599-B2FB78712350">
+<createdBy>moklein</createdBy>
+<createdTime>2021-07-01 18:38:00 UTC</createdTime>
+<ownerDesignName>emp_dept</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>vm_apex211.kscope</connName>
+<connUser>kscope</connUser>
+<connType>1</connType>
+<syncSelected>1</syncSelected>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>
